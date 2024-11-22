@@ -44,7 +44,7 @@
 ```bash
 # Создание события и заказа
 php index.php --create-event EVENT_NAME EVENT_DESCRIPTION TICKET_TYPE PRICE QUANTITY
-php index.php --create-event "Woodstock 1969" "The Woodstock Music and Art Fair" "adult" 1000
+php index.php --create-event "Woodstock 1969" "The Woodstock Music and Art Fair" "adult" 1000 2
 
 # Создание заказа
 php src/index.php EVENT_NAME TICKET_TYPE QUANTITY
