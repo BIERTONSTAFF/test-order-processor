@@ -33,6 +33,6 @@ CREATE TABLE tickets (
     order_id INTEGER NOT NULL REFERENCES orders(id),
     event_price_id INTEGER NOT NULL REFERENCES event_prices(id),
     barcode VARCHAR(120) NOT NULL UNIQUE,
-    is_used BOOLEAN NOT NULL DEFAULT FALSE,
+    used BOOLEAN NOT NULL DEFAULT FALSE,
     created TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
