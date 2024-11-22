@@ -1,0 +1,6 @@
+{
+  "host": "localhost",
+  "dbName": "testorderprocessor",
+  "user": "postgres",
+  "password": "12345678"
+}

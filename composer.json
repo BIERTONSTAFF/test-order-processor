@@ -1,0 +1,31 @@
+{
+  "name": "desq/test-order-processor",
+  "type": "project",
+  "require": {
+    "opis/database": "^4.0",
+    "opis/orm": "^1.0",
+    "ext-pdo": "*"
+  },
+  "scripts": {
+    "test": "phpunit"
+  },
+  "autoload": {
+    "psr-4": {
+      "Desq\\TestOrderProcessor\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Mikhail Matyushev",
+      "email": "mikhail.matyushev@gmail.com"
+    }
+  ],
+  "require-dev": {
+    "phpunit/phpunit": "^11.4"
+  }
+}
