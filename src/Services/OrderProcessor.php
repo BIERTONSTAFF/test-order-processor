@@ -32,6 +32,8 @@ class OrderProcessor
     }
 
     /**
+     * Получение события
+     * 
      * @param int $eventId
      * @return Event
      * @throws EntityNotFoundException
@@ -52,6 +54,8 @@ class OrderProcessor
     }
 
     /**
+     * Получение типа билета
+     *
      * @param string $name
      * @return TicketType
      * @throws EntityNotFoundException
