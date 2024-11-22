@@ -47,7 +47,7 @@ php index.php --create-event EVENT_NAME EVENT_DESCRIPTION TICKET_TYPE PRICE QUAN
 php index.php --create-event "Woodstock 1969" "The Woodstock Music and Art Fair" "adult" 1000 2
 
 # Создание заказа
-php src/index.php EVENT_NAME TICKET_TYPE QUANTITY
+php index.php EVENT_NAME TICKET_TYPE QUANTITY
 php index.php "Woodstock 1969" "adult" 2
 ```
 Пример вывода:
