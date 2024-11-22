@@ -5,8 +5,8 @@ namespace Desq\TestOrderProcessor\Services;
 use Random\RandomException;
 
 // const BASE_URL = "https://api.site.com";
-const BOOK_CHANCE = 100;
-const APPROVE_CHANCE = 100;
+const BOOK_CHANCE = 95;
+const APPROVE_CHANCE = 80;
 
 class ApiClient
 {
